@@ -1,2 +1,4 @@
 # DesignPattern
-Design pattern example repository based java language
+Java based Design pattern example repository
+
+Strategy pattern
