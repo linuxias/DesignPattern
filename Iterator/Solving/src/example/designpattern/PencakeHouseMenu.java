@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by linuxias on 18. 12. 17.
  */
-public class PencakeHouseMenu {
+public class PencakeHouseMenu implements MenuInterface{
     ArrayList menuItems;
 
     public PencakeHouseMenu() {

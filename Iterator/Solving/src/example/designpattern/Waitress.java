@@ -4,10 +4,10 @@ package example.designpattern;
  * Created by linuxias on 18. 12. 17.
  */
 public class Waitress {
-    PencakeHouseMenu pencakeHouseMenu;
-    DinerMenu dinerMenu;
+    MenuInterface pencakeHouseMenu;
+    MenuInterface dinerMenu;
 
-    public Waitress(PencakeHouseMenu pencakeHouseMenu, DinerMenu dinerMenu) {
+    public Waitress(MenuInterface pencakeHouseMenu, MenuInterface dinerMenu) {
         this.pencakeHouseMenu = pencakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }

@@ -3,7 +3,7 @@ package example.designpattern;
 /**
  * Created by linuxias on 18. 12. 17.
  */
-public class DinerMenu {
+public class DinerMenu implements MenuInterface {
     static final int MAX_ITEMS = 2;
     private int numberOfItems = 0;
     MenuItem[] menuItems;
